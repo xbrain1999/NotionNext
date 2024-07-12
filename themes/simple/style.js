@@ -8,35 +8,35 @@ const Style = () => {
   return <style jsx global>{`
     
   // 底色
-  .dark body{
+  .dark body {
       background-color: black;
   }
+
   // 文本不可选取
-    .forbid-copy {
-        user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-    }
-  
+  .forbid-copy {
+      user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+  }
+
   #theme-simple #announcement-content {
     /* background-color: #f6f6f6; */
   }
-  
+
   #theme-simple .blog-item-title {
     color: #276077;
   }
-  
+
   .dark #theme-simple .blog-item-title {
     color: #d1d5db;
   }
-  
+
   .notion {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
-  
-  
-  /*  菜单下划线动画 */
+
+  /* 菜单下划线动画 */
   #theme-simple .menu-link {
       text-decoration: none;
       background-image: linear-gradient(#dd3333, #dd3333);
@@ -45,15 +45,27 @@ const Style = () => {
       background-size: 0 2px;
       transition: background-size 100ms ease-in-out;
   }
-   
+
   #theme-simple .menu-link:hover {
       background-size: 100% 2px;
       color: #dd3333;
       cursor: pointer;
   }
-  
-  
 
+  /* 新增的样式调整 */
+  .header {
+    height: 60px; /* 根据需要调整高度 */
+    padding: 10px 20px; /* 根据需要调整填充 */
+  }
+
+  .title-bar {
+    margin: 20px 0; /* 根据需要调整间距 */
+    padding: 10px 0; /* 根据需要调整填充 */
+  }
+
+  #container-wrapper {
+    padding: 4px 16px; /* 根据需要调整内部填充 */
+  }
   `}</style>
 }
 
