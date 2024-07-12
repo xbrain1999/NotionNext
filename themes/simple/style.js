@@ -54,12 +54,12 @@ const Style = () => {
 
   /* 新增的样式调整 */
   .header {
-    height: 60px; /* 根据需要调整高度 */
+    height: 30px; /* 根据需要调整高度 */
     padding: 10px 20px; /* 根据需要调整填充 */
   }
 
   .title-bar {
-    margin: 20px 0; /* 根据需要调整间距 */
+    margin: 10px 0; /* 根据需要调整间距 */
     padding: 10px 0; /* 根据需要调整填充 */
   }
 
