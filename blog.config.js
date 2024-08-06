@@ -514,7 +514,7 @@ const BLOG = {
 
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
-  MAILCHIMP_LIST_ID: process.env.MAILCHIMP_LIST_ID || 5362727f5b, // 开启mailichimp邮件订阅 客户列表ID ，具体使用方法参阅文档
+  MAILCHIMP_LIST_ID: process.env.MAILCHIMP_LIST_ID || '5362727f5b', // 开启mailichimp邮件订阅 客户列表ID ，具体使用方法参阅文档
   MAILCHIMP_API_KEY: process.env.MAILCHIMP_API_KEY || e9cc2b7ae0e947e3ac0b19a2044df207-us22, // 开启mailichimp邮件订阅 APIkey
 
   // ANIMATE.css 动画
